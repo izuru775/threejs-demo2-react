@@ -27,11 +27,13 @@ class App extends Component {
 
             const texture = new THREE.TextureLoader().load('images/ocean.jpg')
             const material = new THREE.MeshBasicMaterial({ map: texture });
+            const loader = new THREE.TextureLoader();
 
             cube = new THREE.Mesh(geometry, material);
             scene.add(cube);
             // Setting a background color to the scene 
             scene.background = new THREE.Color(0xE39468);
+            scene.background = loader.load( 'images/ocean.jpg' );
 
 
             camera.position.z = 5;
