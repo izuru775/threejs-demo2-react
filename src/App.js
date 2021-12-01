@@ -25,7 +25,7 @@ class App extends Component {
             const geometry = new THREE.BoxGeometry(2, 2, 2);
             // const material = new THREE.MeshBasicMaterial( {color: 0x0000ff} );
 
-            const texture = new THREE.TextureLoader().load('images/lava.jpg')
+            const texture = new THREE.TextureLoader().load('images/ocean.jpg')
             const material = new THREE.MeshBasicMaterial({ map: texture });
 
             cube = new THREE.Mesh(geometry, material);
