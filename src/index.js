@@ -5,7 +5,7 @@ import {BrowserRouter as Router} from "react-router-dom";
 
 ReactDOM.render(
     <Router>
-        Created by : Ish Adikaramm (Deakin University)
+        Created by : Ish Adikaram (Deakin University)
         <App/>
     </Router>,
     document.getElementById("root")
