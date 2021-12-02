@@ -6,7 +6,7 @@ class App extends Component {
     componentDidMount() {
         let scene, camera, renderer, cube;
         const backgroundColor = 0xE39469;
-        function init() {
+        function init() { // camera, scene, and renderer goes inside the init function
             scene = new THREE.Scene();
 
             camera = new THREE.PerspectiveCamera(
